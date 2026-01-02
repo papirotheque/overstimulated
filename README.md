@@ -6,7 +6,8 @@ This piece was displayed on a big screen with access to a mouse and a sign that 
 
 Through four distinct interactive modules: **Hyperfixation, Sensory Overload, Masking, and Alienation**, the project aims to translate abstract internal states into a tangible digital narrative. Leaving the person interacting with the piece all the freedom they want to get into and out of the experience whenever and however they want, for the next person to experience it their own way.
 
-**Live Demo:** 
+**Live Demo:** [https://papirotheque.github.io/overstimulated/](https://papirotheque.github.io/overstimulated/)
+
 **Full Research and Creative Process:** [papiro.space/blog/posts/overstimulated/](https://papiro.space/blog/posts/overstimulated/)
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/9c6fa330-026b-4718-b76d-ef62ca646a5b" />
@@ -65,5 +66,5 @@ This project uses a dual-licensing model to protect different types of intellect
         
     - **No Derivatives:** If you remix, transform, or build upon the material, you may not distribute the modified material.
         
-
+For the full licenses, check the licensing files in the repo.
 For any inquiries regarding the use of the artwork beyond these terms, please contact me.
