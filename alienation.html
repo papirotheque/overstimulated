@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Alienation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <a href="index.html">
+      <button id="indexbutton">Explore</button>
+    </a>
+    <section>
+      <img src="images/Alienation/bg-top.jpg" id="bg">
+      <img src="images/Alienation/people-up.png" id="mountain">
+      <img src="images/Alienation/individuals-up.png" id="people">
+      <h2 id="text"></h2>
+    </section>
+    <section>
+      <img src="images/Alienation/eyes-person.png" id="front">
+      <img src="images/Alienation/person-circle.png" id="forest">
+    </section>
+    <section>
+      <img src="images/Alienation/world-eye.png" id="front">
+      <img src="images/Alienation/person-bot.png" id="front">
+      <img src="images/Alienation/text.jpg" id="texto">
+    </section>
+
+
+    <script type="text/javascript">
+      let bg = document.getElementById("bg");
+      let mountain = document.getElementById("mountain");
+      let front = document.getElementById("front");
+      let text = document.getElementById("text");
+      let forest = document.getElementById("forest");
+      let people = document.getElementById("people");
+
+      window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+        bg.style.top = value * 0.4 + 'px';
+        mountain.style.top = -value * 0.1 + 'px';
+        front.style.top = value * 0.15 + 'px';
+        text.style.top = value * 1 + 'px';
+        forest.style.top = value * 0.05 + 'px';
+        people.style.top = value * 0.9 + 'px';
+      })
+    </script>
+  </body>
+</html>

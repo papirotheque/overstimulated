@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Hyperfixation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <a href="index.html">
+      <button id="indexbutton">Explore</button>
+    </a>
+    <section>
+      <img src="images/Hyperfixation/gradient_top.jpg" id="bg">
+      <img src="images/Hyperfixation/moon.png" id="moon">
+      <img src="images/Hyperfixation/mountains1.png" id="mountain">
+      <img src="images/Hyperfixation/mountains2.png" id="front">
+      <h2 id="text"></h2>
+    </section>
+    <section>
+      <img src="images/Hyperfixation/forest1.png" id="front">
+      <img src="images/Hyperfixation/forest2.png" id="forest">
+    </section>
+    <section>
+      <img src="images/Hyperfixation/blackhole.png" id="front">
+    </section>
+    <section>
+      <img src="images/Hyperfixation/gradient_bot.jpg" id="back">
+      <img src="images/Hyperfixation/bottomfigure2.png" id="forest">
+      <img src="images/Hyperfixation/bottomfigure1.png" id="mountain">
+      <img src="images/Hyperfixation/text.jpg" id="texto">
+    </section>
+
+
+    <script type="text/javascript">
+      let bg = document.getElementById("bg");
+      let moon = document.getElementById("moon");
+      let mountain = document.getElementById("mountain");
+      let front = document.getElementById("front");
+      let text = document.getElementById("text");
+      let forest = document.getElementById("forest");
+
+      window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+        bg.style.top = value * 0.4 + 'px';
+        moon.style.right = value * 0.5 + 'px';
+        mountain.style.top = -value * 0.1 + 'px';
+        front.style.top = value * 0.15 + 'px';
+        text.style.top = value * 1 + 'px';
+        forest.style.top = value * 0.05 + 'px';
+      })
+    </script>
+  </body>
+</html>
